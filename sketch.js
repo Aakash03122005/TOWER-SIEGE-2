@@ -130,14 +130,10 @@ function mouseReleased(){
 function keyPressed()
 {
     if(keyCode === 32)
-    {
-       
-        Matter.Body.setPosition(ball.body,{x:200,y:50});
+                    {
 
-        slingShot.attach(ball.body);
+                         Matter.Body.setPosition(ball.body,{x:200,y:50});
 
-
-
-
-    }
-}
+                         slingShot.attach(ball.body);
+                         }
+                    }
